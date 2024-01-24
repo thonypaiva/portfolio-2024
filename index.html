@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio | Anthony Paiva</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Anthony Paiva</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PROYECTOS</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="./assets/img/2024011423304464.jpg" alt="Anthony Paiva">
+            </div>
+            <h1>Anthony Paiva</h1>
+            <h2>Desarrollador Web y Movil</h2>
+            <div class="redes">
+                <a href="https://www.facebook.com/anthonypaiva03" target="_blank" ><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/dev.thony/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/anthony-paiva-aguero-0b7002262/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://github.com/thonypaiva" target="_blank"><i class="fa-brands fa-github"></i></a>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola, soy Anthony Paiva.</span> soy un venezolano de 31 años de edad que
+               reside en Perú desde hace 5 años; siempre me ha gustado la tecnologia pero por cosas de la vida no
+               tuve las oportunidades para realizar cursos o estudios referentes ha la tecnologia, pero desde finales del año 2022  que Oracle y Alura abieron programa para enseñar lo basico de la programacion web, me entusiasme y gracias a Dios quede entre los seleccionados,
+               realmente he empezado desde cero en la programacion, sin embargo, con mucha practica en los tiempos libre que eh tenido para practicar le eh estado agarrando los
+               pequeños trucos que hacen falta para aprender los lenguaje que se requieren para desarrollar una
+               pagina web, espero seguir aprendiendo y desarrollando las habilidades necesarias para ser un buen desarrollador web.</p>
+
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            14-11-1992
+                        </li>
+                        <li>
+                            <strong>Teléfono</strong>
+                            +51 937-416-159
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            adpaguero1992@gmail.com
+                        </li>
+                       
+                        <li>
+                            <strong>Dirección</strong>
+                            Perú, Lima 
+                        </li>                       
+                    </ul>
+                </div>
+
+                <!-- intereses -->
+                <div class="col">
+                    <h3>Intereses y Hobbies</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>JUEGOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSICA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>VIAJAR</span>
+                        </div>                       
+                        <div class="interes">
+                            <i class="fa-solid fa-person-hiking"></i>
+                            <span>DEPORTES</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-book"></i>
+                            <span>LIBROS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-car"></i>
+                            <span>AUTOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-baseball"></i>
+                            <span>BESIBOL</span>
+                        </div>
+                        <div class="interes">
+                           <i class="fa-solid fa-basketball"></i>
+                           <span>BASKETBALL</span>
+                       </div>                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!-- Technical Skill -->
+                <div class="col">
+                    <h3>Habilidades Tecnicas</h3>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso javascript">
+                                <span>50%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso html">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>                   
+                    <div class="skill">
+                        <span>React</span>
+                        <div class="barra-skill">
+                            <div class="progreso react">
+                                <span>30%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                     <span>Kotlin</span>
+                     <div class="barra-skill">
+                         <div class="progreso kotlin">
+                             <span>15%</span>
+                         </div>
+                     </div>
+                 </div>
+                    
+                </div>
+                <!-- Professional Skills -->
+                <div class="col">
+                    <h3>Habilidades Blandas</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso comunicación">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                  
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Educación y Experiencias</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Bachiller en Ciencias</h4>
+                        <span class="casa">Universidad de Oxford</span>
+                        <span class="fecha">2004 - 2009</span>
+                        <p>Liceo Bolivariano Fray Pedro de Agreda</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Adsistente Administrativo</h4>
+                        <span class="casa">Academia Americana</span>
+                        <span class="fecha">2011 - 2012</span>
+                        Curso basico de asistente administrativo.
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Desarrollador Front-End</h4>
+                        <span class="casa">Alura Latam</span>
+                        <span class="fecha">2022 - 2023</span>
+                        <p>Programa basico de introduccioin al desarrollo web, usando html, CSS , javascript y una libreria de javascript llamada react, en este curso aprendimos logica de programacion manipulacion del DOM y a crear nuetras primeras aplicaciones web con REACT.
+                        </p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                     <h4>Desarrollador Front-End y Movil</h4>
+                     <span class="casa">Platzi</span>
+                     <span class="fecha">2023 - continuo</span>
+                     <p>En esta plataforma de estudio continuo agregando mas conocimiento y habiliades que me ayuden a ser un mejor desarrollador tanto web como movil, estoy enfocado en llevar mis capacidades a un mejor nivel mejorando mis practicas y mejorando mi logica de programacion.
+                     </p>
+                     <div class="conectori">
+                         <div class="circuloi"></div>
+                     </div>
+                 </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Experiencia de trabajo</h3>
+                    <div class="item der">
+                        <h4></h4>
+                        <span class="casa"></span>
+                        <span class="fecha"></span>
+                        <p>Actualmente me encuentro en busca de mi primer trabajo como desarrollador web , para poder aplicar lo aprendido y dar valor al mercado y ayudar a la empresa que me contrate en sus objetivos tecnologicos.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION PROYECTOS -->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PROYECTOS REALIZADOS</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="./assets/img/Captura de pantalla 2023-08-27 094920.png" alt="responsive design">
+                    <div class="overlay">
+                        <h3>First Mobile</h3> 
+                        <p>Diseñando una pagina estatica aplicando responsive design </p>
+                        <a href="https://thonypaiva.github.io/curso-first-mobile-con-platzi/"
+                        class="fa-solid fa-up-right-from-square"
+                        target="_blank"></a>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="./assets/img/Captura de pantalla 2024-01-22 171149.png" alt="primer portfolio">
+                    <div class="overlay">
+                        <h3>Mi Primer Portfolio</h3>
+                        <p>Aplicando mis primeros conocimientos en html, CCS3 y Javascript</p>
+                        <a href="https://thonypaiva.github.io/mi-primer-portafolio/"
+                        class="fa-solid fa-up-right-from-square"
+                        target="_blank"></a>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="./assets/img/Captura de pantalla 2024-01-22 171403.png" alt="encriptador">
+                    <div class="overlay">
+                        <h3>Encriptador</h3>
+                        <p>Uno de mis primeros retos en Alura Latam</p>
+                        <a href="https://thonypaiva.github.io/Reto-de-Encriptador/"
+                        class="fa-solid fa-up-right-from-square"
+                        target="_blank"></a>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="./assets/img/Captura de pantalla 2024-01-22 171725.png" alt="juego con canvas">
+                    <div class="overlay">
+                        <h3>Juego con Canvas </h3>
+                        <p>Este proyecto lo realize con Platzi</p>
+                        <a href="https://thonypaiva.github.io/video-juego-con-js-canvas/"
+                        class="fa-solid fa-up-right-from-square"
+                        target="_blank"></a>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="./assets/img/Captura de pantalla 2024-01-22 171800.png" alt="todo">
+                    <div class="overlay">
+                        <h3>TODOS</h3>
+                        <p>Proyecto realizado con React escuela de Platzi</p>
+                        <a href="https://thonypaiva.github.io/react-basico-todo/"
+                        class="fa-solid fa-up-right-from-square"
+                        target="_blank"></a>
+                    </div>
+                </div>               
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!-- Formulario -->
+                <div class="col">
+                    <form  id="formulario"> 
+                        <div class="campo__contacto">
+                            <input class="boton__contacto" id="nombre" type="text" name="nombre"  >
+                            <label for="nombre">Nombre y Apellido</label>
+                            <span class="mensaje-nombre" ></span>
+                        </div>
+                        <div class="campo__contacto">
+                            <input class="boton__contacto" id="telefono" type="text" name="telefono"  >
+                            <label for="telefono">Telefono</label>
+                            <span class="mensaje-telefono"></span>
+                        </div>
+                        <div class="campo__contacto">
+                            <input class="boton__contacto" id="email" type="email" name="email" >
+                            <label for="email">Email</label>
+                            <span class="mensaje-email" ></span>
+                        </div>
+                        <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                        <button type="submit">
+                            <p>Enviar Mensaje</p><i class="fa-solid fa-paper-plane"></i>
+                            <span class="overlay"></span>
+                        </button>
+                    </form>
+                </div>
+                <!-- Mapa -->
+                <div class="col">
+                    <img src="img/ubicacion.png" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                               Perú-Lima, San Bartolo
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                Llamanos: +51 937-416-159
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: adpaguero1992@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="https://www.facebook.com/anthonypaiva03" target="_blank" ><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/dev.thony/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/anthony-paiva-aguero-0b7002262/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://github.com/thonypaiva" target="_blank"><i class="fa-brands fa-github"></i></a>
+
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
