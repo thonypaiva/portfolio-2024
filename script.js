@@ -97,4 +97,3 @@ form.addEventListener("submit", (event) => {
 
 })
 
-console.log(mensajeErrorTelefono.value)
